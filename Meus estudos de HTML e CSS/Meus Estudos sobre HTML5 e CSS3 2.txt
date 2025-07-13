@@ -1,0 +1,122 @@
+Meus Estudos sobre HTML5 e CSS3 2 
+
+1 - Psicologia das Cores
+
+ - Estudos demonstram -- principalmente estudos como o de Neil Patel -- que decisões como compras estão intrinsecamente relacionadas as cores dos produtos em um processo inconsciente. O mesmo vale para sites, as cores são de suma importância para o desenvolvimento web. Cada cor transmite um sentimento único e diferente, e deve ser escolhida com cautela. Por exemplo, fundo preto e letras brancas apenas funciona se a quantidade de letras for pequena. As cores são extremamente importantes na formação dos sites.
+
+2 - Representação de cores em CSS
+
+ - Representação por nomes
+ - Para representar cores em CSS podemos utilizar a base hexadecimal, que vai de 0-1-2-3-4-5-6-7-8-9 até A-B-C-D-E-F
+ - Podemos representar por meio da função de rgb(), escolhendo a quantidade de vermelho, verde e azul
+ - E podemos representar por meio da função hsl (matiz, saturação e luminosidade)
+ - Podemos utilizar a seleção de cores, que facilita ainda mais o processo de seleção
+
+3 - Harmonia de Cores
+
+ - Círculo Crômatico
+  + Cores primarias = Amarelo, vermelho e azul
+  + Cores secundárias = violeta, laranja e verde
+  + Cores terciárias = mistura das cores primárias e secundárias (nome sempre seguido de cor primaria - cor secundaria)
+    - amarelo-esverdeado
+    - amarelo-alaranjado
+    - vermelho-alaranjado
+    - vermelho-arroxeado
+    - azul-arroxeado
+    - azul-esverdeado
+  + Cores frias e cores quentes
+ 
+ - Paleta de Cores
+  + Contraste = cores opostas no circulo cromático e são chamadas cores complementares
+  + pouco contraste = cores análogas e próximas
+  + cores análogas e complementares 
+     - ex: tons de violeta e um tom de amarelo
+  + cores análogas relacionadas = junção de pelo menos duas cores análogas + uma cor uma casa depois 
+  + Cores intercaladas = cores que são puladas para gerar um maior contraste entre elas
+  + Cores Triádicas = cores escolhidas pulando de três em Três
+  + Cores em quadrado = cores são puladas de dois em dois
+  + Cores tetrádicas =  quatro cores que são paralelas entre si
+  + monocromia = uma cor onde trabalhamos com a mudança de saturação e luminosidade de uma só cor
+
+4 - Tipografia 
+
+ - Durante muito tempo na Europa na Idade Média, os monges copistas eram aqueles que produzam todo o acervo intelectual do Continente. Até que Johannes Gutenberg desenvolveu a Prensa Mecânica de Tipos Móveis que possibilitou o espalhamento das informações em larga escala (Porém na China, muitos anos antes, já existiam prensas do tipo). Com o passar do tempo, passou-se a ser necessária a modificação dos tipos da prensa para a melhor leitura dos livros, daí nascendo a tipografia. Tipo vem do grego typos e Grafia do grego graphía, que significa o estudo de como escrever coisas no papel. E, tal qual as cores, as fontes também geram emoções inconscientes dentro dos seres humanos e são de suma importância no desenvolvimento web.
+
+5 - Anatomia do tipo
+
+ - A letra x minúscula determina o tamanho de todas as outras letras minúsculas, excluindo seus ascendentes e descendentes
+  + altura-x
+  + altura das maiúsculas
+  + ascendente = altura de vazamento das letras minúsculas para cima
+  + descendente = altura de vazamento da cauda das letras
+  + soma de todas as alturas = corpo
+ - Algumas fontes possuem 'serifa' que é uma perninha nas letras que indicam, ao nosso cérebro, uma linha de altura nas palavras guiando a leitura das palavras. 
+ 
+ - Geometria dos tipos
+  + Hastes = perna da letra 
+  + Filete = conecta duas hastes ou arcos
+  + arcos = curvas das letras 
+  + esporão = salto nas letras para que não pareçam que vão cair
+  + vértice = parte pontuda de uma letra
+  + terminal = elemento que não está preso em outro lugar
+ - Anatomia dos tipos
+  + braço = elemento que sai de uma haste e vai para cima
+  + perna = elemento que pode sair de uma haste ou braço e vai para baixo
+  + pé = base das letras donde temos a serifa
+  + espinha = curvas do S
+  + barriga = duas hastes que formam um arco
+  + olho = buraco fechado na letra 
+  + orelha = um esporão na parte de cima das letras
+  + cauda = descendente das letras
+ - As letras dos tipos são chamadas glifos
+ - Conjunto de glifos em uma família formam uma fonte 
+ - Família Tipográfica:
+   + Light;
+   + Normal;
+   + semibold; 
+   + bold;
+   + extrabold
+ - Categorias de Fontes:
+   + Sefiradas
+   + Sans-serif = sem serifa
+   + Monoespaçada (pode ser com ou sem serifa) = todas os glifos tem o mesmo tamanho
+   + Handwriting = escrita à mão
+   + comemorativas
+
+6 - Teoria da Model Box
+
+ - As CSS e as HTML funcionam como caixas, e inclusive caixas dentro de caixas. Formando um aninhamento. As caixas tem duas métricas muito importantes: height (altura) e width (largura) e podemos traçar uma borda em volta dela (em HTML, border). Podemos abrir essa linha em volta da caixa utilizando o padding (preenchimento) e analogamente, podemos criar uma margem (em HTML, margin) para expandir a caixa para fora. E podemos criar uma outline, um contorno dentro da borda ou margem.
+  - Temos tipos de caixa. Como a box-level e a inline-level. O box-level sempre se inicia uma linha abaixo do contéudo e ocupa a largura inteira da tela. O inline-level não pula o conteúdo, mas continua na mesma linha e não ocupa o a largura inteira.
+  - Box-level = <div>, <h1>-<h6>, <p>, <main>, <nav>
+  - inline-level = <span>, <a>, <code>, <small>, <strong>
+  - user agente = navegador
+  - margin (auto) = deixa no meio da tela
+  - display (inline) = transforma box-level em inline-level e o contrário tbm funciona
+
+- Grouping Tags
+ 
+  - Podemos utilizar tags semânticas às partes principais da página, como: header (cabeçalho), main (conteúdo principal), footer (rodapé)
+  - nav = para menus, links, navegação
+  - section = seção
+  - article = artigo
+  - aside = periférico ao artigo 
+
+- Sombras 
+
+ - box-shadow
+
+- Bordas 
+
+ - border-radius = borda arredondada
+ - border-image-source = adiciona borda personalizada
+ - border-image-slice = fatia a borda personalizada 
+ - border-image-repeat = pode repetir a imagem
+ - border-image: = shorthand
+
+- Meu primeiro projeto
+
+ - Planejamento:
+
+layout: podemos utilizar o site Mockflow para fazer o planejamento do layout do site
+cores: temos que planejar a paleta de cores do site
+fontes: as fontes também são importantes para o desenvolvimento do site

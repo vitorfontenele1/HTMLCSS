@@ -1,0 +1,90 @@
+Códigos HTML
+
+width = tamanho
+
+META: fala sobre elementos como texto, estilo, links, etc.
+ + Ex: UTF-8 para caracteres especiais
+HEAD: é a cabeça do site, onde fica a barra de pesquisa
+BODY: é o conteúdo do site em si
+h1: título
+p: parágrafo
+hr: linha em baixo da palavra
+br: quebra um parágrafo
+
+- Caracteres especiais
+
+&lt; = <
+&gt; = >
+& + tag = caractere especial
+&#x = emojis
+img = colocar imagens
+link - favicon = adiciona o favicon
+adress = endereços
+
+- Formatação de Textos
+
+b = negrito / Strong = destaque
+i = itálico / em = ênfase
+mark = marcar texto
+big (obsoleta) = texto grande
+small = texto pequeno
+del = texto excluído
+ins = texto inserido
+u = texto sublinhado
+sup = texto sobrescrito
+sub = texto subscrito
+code = para códigos / pre = pré formata o texto
+q = citações com aspas
+blockquote = citações completas (Ex: livros) / cite = link da citação
+abbr = abreviações de texto
+bdo = inverter texto
+
+- Listas
+
+ol = listas ordenadas
+ul = listas não ordenadas
+ + li = elementos da lista
+dl = lista de definições
+ + dt = termo a ser definido
+ + dd = definição
+
+- Links 
+
+a = ancôra + hre = hypertext reference (link)
+target(_blank) e rel(external) = abre duas páginas com o clique do link
+rel(next) = diz ao mecanismo de busca que é a próxima página
+rel(prev) = diz ao mecanismo de busca que o link refere-se a página principal
+rel(nofollow) = diz ao mecanismo de busca que a página não é licitada por você 
+target(_self) = diz ao mecanismo que é uma página própria
+../ = para voltar muitas páginas atrás -- aprender linux]
+
+- Imagem dinâmica
+
+Picture = adicionar imagem dinâmicas
+ + source media 
+
+- Áudios
+
+Audio - adicionar áudio 
+ + controls = controles de áudio no site
+ + autoplay = começa o áudio sozinho
+ + source pode tentar rodar áudios em vários . diferentes
+ + loop = rodar o áudio várias vezes
+
+- Vídeos 
+
+vídeo = adiciona vídeo
+poster = thumb
+ + colocar o vídeo no menor tamanho possível
+
+- códigos
+  + div = espaço
+  + # = id
+  + . = class
+  + : = subclasse
+  + :: = pseudoelemento
+  + > children
+
+Vídeos responsivos: 
+
+ - Devemos colocar a tag div no link externo

@@ -1,0 +1,61 @@
+Códigos CSS3
+
+1 - Estilos
+
+
+Style = muda o estilo
+ + background color = cor de fundo
+ + fonte-family = fonte do site
+ + fonte-size = tamanho do texto
+ + color = cor do texto
+ + text-align center = centraliza o texto
+   - justify = alinha o texto
+ + CSS link = CSS externo 
+   - charset
+ + Text_decoration = decora o texto
+ + background-image = degrade 
+   - podemos usar radia-gradiente para formar gradientes circulares
+
+1 - Aleatórios
+
+*{} = seleção global
+Main = posso fazer um quadrado como fundo para letras
+box-shadow = adiciona uma sombra a sua caixa de texto
+margin: auto = centraliza automaticamente
+padding
+
+1 - Textos
+
+text-shadow
+font-weight = peso da fonte
+ + lighter, normal, bold and bolder
+font-style = mudar fonte para itálico 
+text-decoration (underline) = sublinha o texto
+shorthand font = simplifica o uso dessas quatro tags que geralmente usamos para fontes
+  + EX: font: italic bolder 3em 'work sans', sans-serif;
+font-face = adiciona fonte baixada
+Tipos de format()
+             - opentype: .otf
+             - truetype: .ttf
+             - embedded-opentype
+             - truetype-aat: apple advanced typography
+             - svg: .svg
+text-indent
+
+pseudoclasses: hover, active, ...
+
+1 - Variáveis
+
+ - utilizando a tag :root podemos estabelecer variáveis 
+
+2 - Responsividade 
+
+ - Podemos colocar uma margin: auto para centralizar o conteúdo, e podemos utilizar o max e o min width para estabelecer uma maior responsividade.
+
+3 - transition-duration adicona animação
+
+4 - list-style-position = muda a posição da lista e columns adiciona mais lista
+
+5 - para adicionar símbolos personalizados a lista podemos adicionar o list-style-type e colocar \código\00A0
+
+6 - margem negativa para formar um bloco

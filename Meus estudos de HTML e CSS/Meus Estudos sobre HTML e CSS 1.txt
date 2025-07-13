@@ -1,0 +1,109 @@
+Meus Estudos sobre HTML e CSS 1
+
+1 - História da Internet (resumo)
+
+  - A internet nasceu nos EUA durante a guerra fria, como forma de descentralizar os dados militares em caso de ataque soviético. A DARPA desenvolveu a ARPANET como forma de comunicação entre os computadores e o protocolo NCP como linguagem universal entre os computadores. Porém, com o aumento de linhas de rede, dois problemas surgem: a localização dos servidores e a transmissão de informações com o aumento de redes. Esses problemas foram resolvidos com a criação do protocolo TCP/IP que permitem a localização dos cliente e servidores, mais a transmissão segura dos dados via pacotes de dados. Com o crescimento da internet, o exército se viu sobrecarregado e dividiu a internet com os universitários e as empresas privadas, com cada um tendo seus servidores. 
+  - Tim, em Genebra na suíça, desenvolveu o servidor HTTP dentro da internet, utilizando o WWW como ligação entre ele. Também desenvolveu o HTML como forma de desenvolvimento dos hipertextos dentro da internet, permitindo a criação de sites com imagens (e mais) como temos hoje.
+
+2 - Como funciona a internet (resumo)
+
+  - Os computadores representam as informações em 0s e 1s e a junção deles é chamada de binary digit (digito binário). A junção de 8 bits, que é a menor forma de representar algum tipo de dado, forma um byte. Ex: 01000001 = A -- código multibyte (UTF-8).
+  - As unidades de medidas dos bytes é sempre multiplicada por 1024, pois a base dos computadores é binária. Portanto, sempre multiplacada por 2^10.
+
+1024 bytes = 1 kilobyte
+1024 kilobytes = 1 megabyte   
+1024 megabyte = 1 gigabyte
+1024 gigabytes = 1 terabyte
+1024 terabytes = 1 petabyte
+1024 petabyte = 1 exabyte
+1024 exabyte = 1 zetabyte
+1024 zetabyte = 1 yotabyte]
+
+sendo, B sempre para armazenamento e b para transmissão
+
+Como conectamos?
+
+Cliente -> Modem -> Internet -> servidor
+  + O Modem transforma ondas quadradas (ondas de corrente alternada que representam apenas dois valores) em ondas senoidais, pois a internet pede esse tipo de onda. Esse processo chama-se modulação. O inverso acontece e se chama demodulação.
+  + O cliente irá encontrar o IP do servidor ao passo em que também tem o seu, permitindo a localização de ambos na internet.
+  + Porém, os IPs trocam rapidamente sempre. Então dificultando a localização do servidor. logo, a internet possui um DNS (domínio de nome de servidor) que registra a existência dos servidores e dá ao cliente o IP do servidor permitindo o acesso. Daí o servidor lança os dados ao cliente, que demodula a informação e é reorganizada no computador permitindo o acesso a informação. 
+  + Dentro da internet, os pacotes de informação são transmitidos por diversas rotas diferentes.
+
+
+3 - Domínio e Hospedagem
+
+  - Para acessar um servidor é necessário a URL (que é a ponte) entre o cliente, o DNS e o servidor.
+    + Para alguém acessar meu site eu preciso de um Domínio. E também de uma Hospedagem para armazenar meu site.
+- Domínio: Nome único, pago anualmente, vários TLDs
+- Hospedagem: Espaço para armazenar arquivos; pago mensalmente; espaço, memória, recursos
+
+  - URL (localizador de recurso único/uniforme): a URL têm o domínio e dentro do domínio tem a TLD (top level domain, tendo os GTDL como os .com, .net, .onlne, .org que são genéricos, e os CCTLD que são de páises como o .br). o WWW é o subdomínio (podem ter outro). Depois disso temos o caminho.
+
+4 - HTML, CSS e JavaScript
+
+  - HTML e CSS não são linguagens de programação.
++ HTML: Hypertext markup language
++ CSS: Cascading Style Sheets
+
++ HTML: contéudo (texto, imagens, vídeos, tabelas)
++ CSS: design (cores, sombras, tamanhos, posicionamento)
++ JavaScript: interações (menus, animações, popups)
+
+
+5 - Front-end, Back-end e Full-stack
+
++ Site estático: todos veem a mesma coisa no site 
++ tecnologias client-side (desenvolvidor front-end) - html, css e JS
++ tecnologias server-side (desenvolvimento back-end) - php, JS (node), C#, Python, Java, Ruby etc.
+
+- O front-end pode ser estático, mas o back-end geralmente não pode.
+  + Porém, se o back-end tiver um banco de dados, isso não será necessário.
+
++ Desenvolvedor Full Stack é aquele que domina tanto o front-end quanto o back-end.
+
+6 - Direitos autorais e Imagens
+
+  - Ao fazer o download de imagens no google para usar em sites, deve-se ter o cuidado com os direitos autorais da imagem.
+  - O arquivo .jpeg foi criado em 1983 com o objetivo de compactar imagens
+  - O PNG foi criado em 1996 pela WWW (World Wide Web) e permite a transparência de imagens
+
+7 - Hierarquias de Titulo
+
+Níveis hierárquicos seguem a sequência: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+	- Não deve-se pular a sequência;	
+	- Não são usados para definir tamanho da letra. Isso é feito em CSS;
+
+lorem: gerador de texto "lero-lero"
+
+- obs:	<p>lorem</p>	Texto de tamanho padrão
+  <p>loremN</p>	N é o nº de palavras que o texto terá.
+
+8 - Semântica na HTML5
+
+ - A diferença entre a versão da HTML4 para a HTML5 é a semântica. A HTML5 não trabalha mais com formas e esse trabalho passou para o CSS3 e, portanto, algumas tags antigas da HTML4 ficaram em desuso (ex: marquee)
+ - Em html usar semântica
+
+9 -  Vídeos e áudios
+
+ - Deve-se tomar cuidado ao colocar áudios e vídeos, pois cada site é compatível com um tipo
+
+10 - CSS
+
+ - O CSS Inline é desvantajoso, pois é muito trabalhoso e deixa os códigos bagunçados
+ - O CSS local é uma forma melhor e mais organizada de trabalhar com os estilos dentro dos códigos HTML5, porém o style ocupa mais linhas que o html em si e também se torna trabalhoso quando se tem várias páginas
+ - O CSS external é o mais versátil e menos trabalhoso de todos os CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
