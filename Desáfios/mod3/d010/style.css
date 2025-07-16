@@ -70,7 +70,7 @@ section > p {
 .imagem {
     background-color: rgb(41, 40, 40);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.642);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.618);
     background-attachment: fixed;
 }
 
