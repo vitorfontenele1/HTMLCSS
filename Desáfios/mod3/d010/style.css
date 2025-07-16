@@ -57,6 +57,10 @@ section {
     font-size: 1.25em;
 }
 
+section > p {
+    padding-bottom: 0.5em ;
+}
+
 .normal {
     background-color: white;
     color: black;
@@ -65,11 +69,25 @@ section {
 .imagem {
     background-color: rgb(41, 40, 40);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.642);
+    background-attachment: fixed;
 }
 
 .imagem > p {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.232);
+    background-color: rgba(0, 0, 0, 0.61);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01 {
+    background-image: url(../d010/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(../d010/imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
