@@ -59,3 +59,5 @@ pseudoclasses: hover, active, ...
 5 - para adicionar símbolos personalizados a lista podemos adicionar o list-style-type e colocar \código\00A0
 
 6 - margem negativa para formar um bloco
+
+7 - text-transform uppercase para deixar tudo maiúsculo e font-variant small-caps e deixa as primeiras letras maiores

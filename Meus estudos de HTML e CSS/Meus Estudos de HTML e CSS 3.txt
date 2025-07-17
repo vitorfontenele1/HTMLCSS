@@ -1,0 +1,52 @@
+Meus Estudos de HTML e CSS 3 
+
+1 - Git e GitHub
+
+ - O git é uma forma de armazenar a mesma e várias versões de um arquivo de tal forma que não iremos perdê-lo facilmente. (repositório local)
+ - O GitHub é uma forma de armazenar esses arquivos com maior segurança, sem chance de perdê-los em caso de perda total do hardware. (repositório remoto)
+
+2 - Imagens como background de fundo
+
+ - Para colocar imagens de fundo é necessário utilizar a tag background-image: url().
+ - Podemos utilizar background-size para aumentar ou diminuir a imagem de fundo
+ - Podemos utilizar o background-repeat para configurar a repetição de imagens de fundo, como por exemplo o no-repeat. Podemos usar o repeat-x e o repeat-y para definir a repetição em um só eixo 
+ - O background-position muda a posição que será mostrada no fundo do site, então:
+left top right top
+left bottom right bottom
+ - Dentro do Backgrounf-size podemos utilizar determinados comandos que ajudam à tornar a imagem de fundo 100% visível e sem distorções. O contain colocam a imagem completa, porém deixando bordas. O cover mostra 100% da imagem sem distorções, porém a imagem acabará.
+ - Com o background-attachment, podemos resolver isso. O fixed fixa a imagem e rolamos apenas o conteúdo.
+- Podemos usar shorhand para o background
+color > image > position > repeat > [size] > attachment
+- Mas tem que ter cuidado com o size, pois pode bugar.
+
+3 - Alinhamento Vertical 
+ - position: relative
+ - position: absolute
+ + com absolute podemos mudar as posições por meio do left e do top
+ - com isso podemos alinhar verticalmente as caixas
+ - com o transform podemos transformar diversas posições da caixa
+
+4 - Tabelas
+
+ - Para criar tabelas precisamos utilizar a tag table
+  + hierarquia de tabelas
+    - table row = linha de tabela  (tr)
+    - table header = cabeçalho de tabela (th)
+    - table data = dados de tabela (td)
+  + para adicionar linhas aos dados, utilizamos o border para tal.
+  + Devemos usar o border-collapse para juntar as bordas
+  + A hierarquia é muito importante
+  + Podemos usar o vertical-align para alinhar verticalmente o conteúdo (padrão = middle)
+  + Anatomia de tabelas grandes: 
+    - Caption
+    - Thead
+    - Tbody
+    - Tfoot
+  + Scope para títulos
+   - col para títulos de colunas
+   - row para título de linhas
+  + para adicionar efeito zebrado às telas basta utilizar tbody > tr:nth-child(2n)
+  + Para telas grandes (google chrome) podemos travar a head: position relative e position sticky
+  + Mesclagem de células: para tornar uma célula em duas ou mais em colunas podemos mesclar utilizando colspan (2+). Para as linhas, podemos utilizar o rowspan (2+)
+  + Para adicionar características a uma coluna inteira podemos usar a tag colgroup e col + class
+  + Para tornar a tabela responsiva, podemos usar a tag div e no css da div, colocar a tag overflow: auto
